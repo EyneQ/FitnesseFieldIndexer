@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "description": "Index fields with the same label",
+    "name": "Element Indexer",
+    "version": "0.1",
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_icon": "images/icon.png",
+        "default_title": "Index Elements",
+        "default_popup": "html/popup.html"
+    },
+    "content_scripts": [{
+        "matches": [
+            "<all_urls>"
+        ],
+        "css": [
+            "styles/indexer.css"
+        ] 
+    }]
+}

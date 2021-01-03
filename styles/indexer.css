@@ -1,0 +1,12 @@
+.element_indexer-highlighter_element {
+    z-index: 1000;
+    opacity: 0.2;
+    color: white;
+    background: red;
+    text-align: center;
+    position: absolute;
+}
+
+.element_indexer-highligher_element-hidden {
+    display: hidden;
+}
